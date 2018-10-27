@@ -60,7 +60,8 @@ a {
     background: #4aaaa5;
     color: white;
     font-size: 30px;
-    height: 100%
+    height: 100%;
+    
 }
 
 .footer { 
@@ -117,6 +118,7 @@ hr {
 
 #navbarCollapse {
     height: 100% !important;
+    margin-left: -15px;
 
 }
 
