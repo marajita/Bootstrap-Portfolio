@@ -1,15 +1,122 @@
-#copyright {
+.container{
+    background-color:#ffffff;
+}
+
+body{
+    background-image: url("../images/soft_wallpaper.png");
+    background-size: cover;
+}
+
+.wrapper {
+    position: relative;
+}
+ 
+img {
+    width: 100%
+}
+.banner {
+    position: absolute;
+    bottom: 5px;
+    background-color: #4aaaa5;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    color:white;
+}
+
+.navbar {
+    background: #ffffff;
+    height: 94px;
+    border-bottom: 4px solid #cccccc;
+    padding: 15px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+a {
+    color: #777777;
+    margin-left: 3px;
+    margin-right: 3px;
+   
+   }
+
+   h3 {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-weight: bold;
+    color:#4aaaa5;
+   }
+
+   p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+   }
+
+.heading {
+    margin: auto;
+}
+
+.navbar-brand{
+    background: #4aaaa5;
+    color: white;
+    font-size: 30px;
+    padding: 52px 12px;
+    float: inherit;
+    line-height: 1px;
+}
+
+.navbar-header {
+    float: unset;
+}
+
+.footer { 
+    background: #666666;
+    text-align:center;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color:white;
+    font-size:10px;
     
 }
 
-
-.navbar, .navbar-default, .navbar-fixed-bottom{
-    color: #666666;
-
+.footline {
+    border-top: 8px solid #4aaaa5
 }
 
-/* #message {
-    /* For contact message box
-    height: 200px;
+
+hr {
+    opacity: 0.2;
+    background: #cccccc;
+    height: 4px;
 }
-*/
+
+.btn-default{
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.form-group{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+}
+
+.panel{
+    border: 0px;
+    box-shadow: 0 0px 0px rgba(0,0,0,0);
+}   /* to remove the border created by panel bootstrap */
+
+.img-portfolio{
+    width: 100%;
+    height: 155px;
+}
